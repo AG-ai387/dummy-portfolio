@@ -1,5 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+   background-color:black
+}
+.header{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-left: 400px;
+    margin: 2px;
+    
+}
+.hbtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: blue;
+}
+.intro{
+    color: rgb(0, 0, 255);
+    margin-top: 50px ;
+    margin-left: 150px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.intro p{
+    width: 400px;
+
+}
+.dumypic{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+
+
+    
+}
+footer{
+
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;    
+}
+
+.p{
+    color: white;
+}
+
+
 
 
